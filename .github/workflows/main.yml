@@ -16,7 +16,9 @@ jobs:
       run: |
         sudo apt update
         sudo apt -y install build-essential tree
-        sudo cpan install 
+        sudo cpan install Module::Build
+
+
 
     - name: Test
       run: |
